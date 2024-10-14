@@ -1,0 +1,24 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore build output directories
+dist/
+build/
+
+# Ignore local environment variables
+.env
+
+# Ignore log files
+*.log
+
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Allow certain files or directories to be tracked
+!some-directory/  # Include a specific directory
+!some-file.txt    # Include a specific file
